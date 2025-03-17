@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+/* src/App.css */
+
+/* Ensure body and html take full height */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Make the app content fill the height of the page */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/* Make the main content (other than the footer) take up available space */
+.main-content {
+  flex-grow: 1;
+}
