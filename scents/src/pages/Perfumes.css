@@ -1,0 +1,92 @@
+/* src/pages/Perfumes.css */
+
+.perfumes {
+  text-align: center;
+  padding: 2rem;
+}
+
+.perfumes h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.gender-filter {
+  margin-bottom: 2rem;
+}
+
+.gender-filter button {
+  background-color: #800020; /* Burgundy color */
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.gender-filter button:hover {
+  background-color: #5c0010; /* Darker burgundy on hover */
+}
+
+.perfume-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.perfume-card {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  width: 350px; /* Fixed width */
+  height: 600px; /* Fixed height */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.perfume-card:hover {
+  transform: translateY(-10px);
+}
+
+.perfume-image {
+  width: 100%;
+  height: 200px; /* Fixed height for the image */
+  object-fit: cover; /* Ensures image is contained within the fixed size */
+  border-radius: 8px;
+}
+
+.perfume-card h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.perfume-card p {
+  font-size: 1rem;
+  color: #555;
+  flex-grow: 1; /* This ensures the description section takes available space without affecting other content */
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #800020; /* Burgundy color for the price */
+}
+
+.add-to-cart {
+  background-color: #FFD700; /* Gold color for the button */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.add-to-cart:hover {
+  background-color: #ff9800; /* Slightly darker gold on hover */
+}
