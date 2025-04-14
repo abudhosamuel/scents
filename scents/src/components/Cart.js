@@ -1,5 +1,6 @@
 // src/components/Cart.js
 import React from 'react';
+import { Link } from 'react-router-dom';  // To enable navigation with React Router
 
 const Cart = () => {
   return (
